@@ -75,5 +75,9 @@ Assignment1.pdf — Assignment description.
 
 *.csv — Source datasets.
 <img width="353" height="782" alt="Screenshot 2025-09-21 at 20 31 50" src="https://github.com/user-attachments/assets/fc31770e-0689-4524-9515-aba07fa515c8" />
+<img width="932" height="765" alt="Screenshot 2025-09-21 at 14 13 16" src="https://github.com/user-attachments/assets/ebd14628-4bb8-4c08-97f4-999914d08049" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-21 at 20 25 28" src="https://github.com/user-attachments/assets/ef5ad1af-17ea-42fb-9190-a2b55879bc65" />
+
+
 
 
