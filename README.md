@@ -74,3 +74,6 @@ queries.sql — Collection of SQL queries (for direct use in psql/pgAdmin).
 Assignment1.pdf — Assignment description.
 
 *.csv — Source datasets.
+<img width="353" height="782" alt="Screenshot 2025-09-21 at 20 31 50" src="https://github.com/user-attachments/assets/fc31770e-0689-4524-9515-aba07fa515c8" />
+
+
