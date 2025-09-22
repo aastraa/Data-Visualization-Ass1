@@ -1,83 +1,63 @@
-https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023 (scv documents)
-Assignment 1 — Spotify Database
-Project Description
+# 🎵 Assignment 1 — Spotify Database  
 
-As part of this assignment, a project was prepared to load and analyze Spotify data.
-Five CSV files (spotify_artists, spotify_albums, spotify_tracks, spotify_features, spotify_data) are imported into PostgreSQL.
-Based on the data, both basic and analytical SQL queries are executed.
+## 📌 Project Description  
+This project imports and analyzes Spotify data using PostgreSQL and Python.  
+Five CSV files are imported into the database:  
 
-Tools Used
+- `spotify_artists`  
+- `spotify_albums`  
+- `spotify_tracks`  
+- `spotify_features`  
+- `spotify_data`  
 
-PostgreSQL — Database management system for data storage.
+The data is then analyzed using **basic** and **analytical SQL queries**.  
 
-Python (psycopg2, pandas) — For importing CSV files into the database and running SQL queries.
+---
 
-SQL — For data analysis (LIMIT, WHERE + ORDER BY, GROUP BY, JOIN, aggregations).
+## 🛠 Tools Used  
+- **PostgreSQL** — Database management system for data storage.  
+- **Python** (`psycopg2`, `pandas`) — For importing CSV files into the database and executing SQL queries.  
+- **SQL** — For data analysis (`LIMIT`, `WHERE + ORDER BY`, `GROUP BY`, `JOIN`, aggregations).  
+- *(Optional)* **Apache Superset** — For visualization (not required in this project).  
 
-(Optional per assignment: Apache Superset can be used for visualization, but this project focuses on SQL queries only).
+---
 
-How to Run
+## 🚀 How to Run  
 
-Create a PostgreSQL database named assignment1.
-
+1. **Create the database** in PostgreSQL:  
+   ```sql
+   CREATE DATABASE assignment1;
 Install dependencies:
-
 pip install pandas psycopg2
-
-
 Run the script:
-
 python dv.py
-
-
-The script will import CSV data into PostgreSQL and execute 4 basic + 10 analytical queries.
-
-Queries Implemented
-Basic Queries
-
-LIMIT — first 10 albums.
-
-WHERE + ORDER BY — top 20 tracks by popularity.
-
-GROUP BY — average track popularity by album.
-
-JOIN — number of tracks per album.
-
-Analytical Queries
-
+This will:
+✔ Import CSV data into PostgreSQL
+✔ Execute 4 basic queries
+✔ Execute 10 analytical queries
+🔍 Queries Implemented
+🟢 Basic Queries
+LIMIT — First 10 albums.
+WHERE + ORDER BY — Top 20 tracks by popularity.
+GROUP BY — Average track popularity by album.
+JOIN — Number of tracks per album.
+🔵 Analytical Queries
 Top 10 artists by number of followers.
-
 Top albums by total track popularity.
-
 Most energetic tracks.
-
 Top albums by danceability.
-
 Distribution of track duration (0–10 minutes).
-
 Fast and popular tracks (tempo + popularity).
-
 Artists ranked by number of tracks.
-
 Top explicit tracks by popularity.
-
 Number of tracks by release year.
-
 Average energy by release year.
+📂 Project Structure
+📦 Assignment 1 - Spotify Database
+├── dv.py            # Main Python script (import + queries)
+├── queries.sql      # Collection of SQL queries
+├── Assignment1.pdf  # Assignment description
+└── *.csv            # Spotify dataset files
+✨ Done — ready to explore Spotify with SQL!
 
-Project Structure
-
-dv.py — Main Python script (import + queries).
-
-queries.sql — Collection of SQL queries (for direct use in psql/pgAdmin).
-
-Assignment1.pdf — Assignment description.
-
-*.csv — Source datasets.
-<img width="353" height="782" alt="Screenshot 2025-09-21 at 20 31 50" src="https://github.com/user-attachments/assets/fc31770e-0689-4524-9515-aba07fa515c8" />
-<img width="932" height="765" alt="Screenshot 2025-09-21 at 14 13 16" src="https://github.com/user-attachments/assets/ebd14628-4bb8-4c08-97f4-999914d08049" />
-<img width="1920" height="1080" alt="Screenshot 2025-09-21 at 20 25 28" src="https://github.com/user-attachments/assets/ef5ad1af-17ea-42fb-9190-a2b55879bc65" />
-
-
-
-
+Хочешь, я ещё добавлю **эмодзи к каждому разделу** (например, 🎤 к артистам, 💿 к альбомам, 🎶 к трекам) для более яркого оформления?
