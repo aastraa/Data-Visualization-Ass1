@@ -54,10 +54,10 @@ Number of tracks by release year.
 Average energy by release year.
 📂 Project Structure
 📦 Assignment 1 - Spotify Database
-├── dv.py            # Main Python script (import + queries)
-├── queries.sql      # Collection of SQL queries
-├── Assignment1.pdf  # Assignment description
-└── *.csv            # Spotify dataset files
+├── dv.py            # Main Python script (import + queries)  
+├── queries.sql      # Collection of SQL queries  
+├── Assignment1.pdf  # Assignment description  
+└── *.csv            # Spotify dataset files  
 ✨ Done — ready to explore Spotify with SQL!
 
-Хочешь, я ещё добавлю **эмодзи к каждому разделу** (например, 🎤 к артистам, 💿 к альбомам, 🎶 к трекам) для более яркого оформления?
+
