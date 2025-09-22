@@ -31,7 +31,7 @@ Install dependencies:
 pip install pandas psycopg2
 Run the script:
 python dv.py
-This will:  
+This will:
 ✔ Import CSV data into PostgreSQL  
 ✔ Execute 4 basic queries  
 ✔ Execute 10 analytical queries  
@@ -59,5 +59,6 @@ Average energy by release year.
 ├── Assignment1.pdf  # Assignment description  
 └── *.csv            # Spotify dataset files  
 ✨ Done — ready to explore Spotify with SQL!
+
 
 
