@@ -64,6 +64,7 @@ python dv.py
 ├── Assignment1.pdf  # Assignment description  
 └── *.csv            # Spotify dataset files  
 ✨ Done — ready to explore Spotify with SQL!  
+<img width="932" height="765" alt="Screenshot 2025-09-21 at 14 13 16" src="https://github.com/user-attachments/assets/39eb6129-aaed-43f8-ab3a-94cfb3331cdf" />
 
-<img width="932" height="765" alt="Screenshot 2025-09-21 at 14 13 16" src="https://github.com/user-attachments/assets/836e4d6c-7320-467c-9bef-4461600ab90b" />
+
 
