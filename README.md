@@ -65,4 +65,4 @@ python dv.py
 └── *.csv            # Spotify dataset files  
 ✨ Done — ready to explore Spotify with SQL!
 
-https://github.com/aastraa/Data-Visualization-Ass1/blob/main/Screenshot%202025-09-21%20at%2014.13.16.png
+![image alt] (https://github.com/aastraa/Data-Visualization-Ass1/blob/main/Screenshot%202025-09-21%20at%2014.13.16.png)
