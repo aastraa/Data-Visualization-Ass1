@@ -26,30 +26,37 @@ The data is then analyzed using basic and analytical SQL queries.
 
 ### 1️⃣ Install dependencies  
 ```bash
+# 📦 Install dependencies
 pip install pandas psycopg2
-2️⃣ Run the script
+
+# ▶️ Run the script
 python dv.py
-✅ This will:  
-Import CSV data into PostgreSQL  
-Execute 4 basic queries  
-Execute 10 analytical queries  
-🔍 Queries Implemented  
-🟢 Basic Queries  
-LIMIT → First 10 albums  
-WHERE + ORDER BY → Top 20 tracks by popularity  
-GROUP BY → Average track popularity by album  
-JOIN → Number of tracks per album  
-🔵 Analytical Queries  
-Top 10 artists by number of followers  
-Top albums by total track popularity  
-Most energetic tracks  
-Top albums by danceability  
-Distribution of track duration (0–10 minutes)  
-Fast and popular tracks (tempo + popularity)  
-Artists ranked by number of tracks  
-Top explicit tracks by popularity  
-Number of tracks by release year  
-Average energy by release year  
+
+# ✅ This will:
+- Import CSV data into PostgreSQL
+- Execute 4 basic queries
+- Execute 10 analytical queries
+
+# 🔍 Queries Implemented
+
+🟢 Basic Queries
+- LIMIT → First 10 albums
+- WHERE + ORDER BY → Top 20 tracks by popularity
+- GROUP BY → Average track popularity by album
+- JOIN → Number of tracks per album
+
+🔵 Analytical Queries
+- Top 10 artists by number of followers
+- Top albums by total track popularity
+- Most energetic tracks
+- Top albums by danceability
+- Distribution of track duration (0–10 minutes)
+- Fast and popular tracks (tempo + popularity)
+- Artists ranked by number of tracks
+- Top explicit tracks by popularity
+- Number of tracks by release year
+- Average energy by release year
+
 📂 Project Structure
 📦 Assignment 1 - Spotify Database  
 ├── dv.py            # Main Python script (import + queries)  
