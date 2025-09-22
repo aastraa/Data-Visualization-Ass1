@@ -10,6 +10,8 @@ Five CSV files are imported into the database:
 - `spotify_features`  
 - `spotify_data`  
 
+<img width="932" height="765" alt="Screenshot 2025-09-21 at 14 13 16" src="https://github.com/user-attachments/assets/f5f3b6d9-b28a-49cc-8af4-71dfaf67c431" />
+
 The data is then analyzed using basic and analytical SQL queries.  
 
 ---
@@ -63,6 +65,5 @@ python dv.py
 ├── queries.sql      # Collection of SQL queries  
 ├── Assignment1.pdf  # Assignment description  
 └── *.csv            # Spotify dataset files  
-✨ Done — ready to explore Spotify with SQL!
+✨ Done — ready to explore Spotify with SQL!  
 
-![image alt] (https://github.com/aastraa/Data-Visualization-Ass1/blob/main/Screenshot%202025-09-21%20at%2014.13.16.png)
