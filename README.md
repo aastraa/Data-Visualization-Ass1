@@ -65,6 +65,4 @@ python dv.py
 └── *.csv            # Spotify dataset files  
 ✨ Done — ready to explore Spotify with SQL!
 
-<img width="960" height="800" alt="error_heatmap_N40" src="https://github.com/user-attachments/assets/465f80d0-18bc-472e-b59a-0566ef533dc7" />
-
 
